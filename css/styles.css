@@ -3,7 +3,7 @@ body {
     color: #212121;
     }
 .logo {
-    ont-family: 'Raleway';
+    font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -14,7 +14,7 @@ body {
 .logo-web {
     font-family: 'Raleway';
     font-style: normal;
-    ont-weight: 700;
+    font-weight: 700;
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
@@ -23,4 +23,15 @@ body {
 a {
     text-decoration:none
     }
-    
+ul {
+    list-style-type: none
+    }
+.logo-footer {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    }
