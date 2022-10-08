@@ -1,3 +1,4 @@
+/* INDEX */
 body {
     font-family: 'Roboto', 'Helvetica Neue', 'Verdana', 'Tahoma',sans-serif;
     color: #212121;
@@ -21,11 +22,58 @@ body {
     color: #2196F3;
     }
 a {
-    text-decoration:none
+    text-decoration: none;
     }
 ul {
     list-style-type: none
     }
+.nav-stud, .nav-portf, .nav-cont  {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+} 
+.nav-stud:hover,
+.nav-stud:focus {
+    color: #2196F3;
+}
+.nav-portf:hover,
+.nav-portf:focus {
+    color: #2196F3;
+}
+.nav-cont:hover,
+.nav-cont:focus {
+    color: #2196F3;
+}
+.contacts-mailto {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+} 
+.contacts-mailto:hover,
+.contacts-mailto:focus {
+    color: #757575;
+}
+.contacts-tel {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.contacts-tel:hover,
+.contacts-tel:focus {
+    color: #2196F3;
+}
 .logo-footer {
     font-family: 'Raleway';
     font-style: normal;
@@ -35,3 +83,4 @@ ul {
     letter-spacing: 0.03em;
     color: #FFFFFF;
     }
+/* PORTFOLIO */
