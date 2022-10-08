@@ -75,6 +75,10 @@ ul {
 .contacts-tel:focus {
     color: #2196F3;
 }
+.title {
+    background: #FFFFFF;
+    border: 1px solid #ECECEC;
+}
 /* MAIN */
 .title-hero {
     font-family: 'Roboto';
@@ -102,10 +106,31 @@ ul {
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    cursor: pointer;
 }
 .caption-btn:hover,
 .caption-btn:focus {
     background: #188CE8;
+}
+/* OFFER */
+.offer-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+.offer-p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
 /* FOOTER */
 footer {
