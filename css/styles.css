@@ -3,6 +3,12 @@ body {
     font-family: 'Roboto', 'Helvetica Neue', 'Verdana', 'Tahoma',sans-serif;
     color: #212121;
 }
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none
+}
 /* HEADER */
 .logo {
     font-family: 'Raleway';
@@ -21,12 +27,6 @@ body {
     line-height: 31px;
     letter-spacing: 0.03em;
     color: #2196F3;
-}
-a {
-    text-decoration: none;
-}
-ul {
-    list-style-type: none
 }
 .nav-stud, .nav-portf, .nav-cont  {
     font-family: 'Roboto';
@@ -131,6 +131,55 @@ ul {
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #757575;
+}
+/* JOB */
+.job {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+/* TEAM */
+.team {
+    background: #F5F4FA;
+}
+.team-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.team-cap {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.team-text {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #757575;
+
 }
 /* FOOTER */
 footer {
