@@ -267,3 +267,25 @@ color: #212121;
     background: #F5F4FA;
 border-radius: 4px;
 }
+.projects-box {
+    background: #FFFFFF;
+border: 1px solid #EEEEEE;
+}
+.projects-head {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.projects-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
