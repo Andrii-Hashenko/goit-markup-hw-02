@@ -1,7 +1,10 @@
 /* INDEX */
 body {
-    font-family: 'Roboto', 'Helvetica Neue', 'Verdana', 'Tahoma',sans-serif;
+    font-family: 'Roboto', 'Raleway',sans-serif;
     color: #212121;
+    background-color: white;
+    font-size: 14px;
+    letter-spacing: 0.02em;
 }
 a {
     text-decoration: none;
@@ -12,7 +15,6 @@ ul {
 /* HEADER */
 .logo {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
@@ -21,7 +23,6 @@ ul {
 }
 .logo-web {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
@@ -30,7 +31,6 @@ ul {
 }
 .nav-stud, .nav-portf, .nav-cont  {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -51,20 +51,18 @@ ul {
 }
 .contacts-mailto {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: #2196F3;
+    color: #757575;
 } 
 .contacts-mailto:hover,
 .contacts-mailto:focus {
-    color: #757575;
+    color: #2196F3;
 }
 .contacts-tel {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -75,14 +73,18 @@ ul {
 .contacts-tel:focus {
     color: #2196F3;
 }
-.title {
+.title:after {
+    content: '';
+    display: block;
     background: #FFFFFF;
     border: 1px solid #ECECEC;
 }
 /* MAIN */
+.title-bg {
+    background: #2F303A;
+}
 .title-hero {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
@@ -90,11 +92,9 @@ ul {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
-    background: #2F303A;
 }
 .caption-btn {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
@@ -115,7 +115,6 @@ ul {
 /* OFFER */
 .offer-title {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -125,8 +124,6 @@ ul {
 }
 .offer-p {
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -135,7 +132,6 @@ ul {
 /* JOB */
 .job {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -154,7 +150,6 @@ ul {
 }
 .team-title {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -164,7 +159,6 @@ ul {
 }
 .team-cap {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -174,8 +168,6 @@ ul {
 }
 .team-text {
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
@@ -188,7 +180,6 @@ footer {
 }
 .logo-footer {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
@@ -197,8 +188,6 @@ footer {
 }
 .adres-geo {
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -210,8 +199,6 @@ footer {
 }
 .adres-mailto {
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -223,8 +210,6 @@ footer {
 }
 .adres-tel {
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -238,13 +223,12 @@ footer {
 /* PROJECTS */
 .all-btn {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: #212121;
     cursor: pointer;
 }
 .all-btn:hover,
@@ -252,16 +236,17 @@ footer {
     background: #2196F3;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
+    color: #FFFFFF;
 }
 .btn-projects {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    cursor: pointer;
 }
 .btn-projects:hover,
 .btn-projects:focus {
@@ -274,7 +259,6 @@ footer {
 }
 .projects-head {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
@@ -283,8 +267,6 @@ footer {
 }
 .projects-text {
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.03em;
