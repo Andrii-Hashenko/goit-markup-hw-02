@@ -1,10 +1,14 @@
+/* ПАЛІТРА */
+:root {
+    --text-color:  #212121;
+  }
 /* INDEX */
 body {
     font-family: 'Roboto', 'Raleway',sans-serif;
-    color: #212121;
+    color: var(--text-color)
     background-color: white;
     font-size: 14px;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.03em;
 }
 a {
     text-decoration: none;
@@ -18,7 +22,6 @@ ul {
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    letter-spacing: 0.03em;
     color: #000000;
 }
 .logo-web {
@@ -26,7 +29,6 @@ ul {
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    letter-spacing: 0.03em;
     color: #2196F3;
 }
 .nav-stud, .nav-portf, .nav-cont  {
@@ -74,7 +76,6 @@ ul {
     color: #2196F3;
 }
 .headline {
-    background: #FFFFFF;
     border-bottom: 1px solid #ECECEC;
 }
 /* MAIN */
@@ -116,7 +117,6 @@ ul {
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
 }
@@ -124,7 +124,6 @@ ul {
     font-family: 'Roboto';
     font-size: 14px;
     line-height: 24px;
-    letter-spacing: 0.03em;
     color: #757575;
 }
 /* JOB */
@@ -134,7 +133,6 @@ ul {
     font-size: 36px;
     line-height: 42px;
     text-align: center;
-    letter-spacing: 0.03em;
     color: #212121;
 }
 /* TEAM */
@@ -152,7 +150,6 @@ ul {
     font-size: 36px;
     line-height: 42px;
     text-align: center;
-    letter-spacing: 0.03em;
     color: #212121;
 }
 .team-cap {
@@ -161,7 +158,6 @@ ul {
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    letter-spacing: 0.03em;
     color: #212121;
 }
 .team-text {
@@ -169,7 +165,6 @@ ul {
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    letter-spacing: 0.03em;
     color: #757575;
 }
 /* FOOTER */
@@ -181,14 +176,12 @@ footer {
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 .adres-geo {
     font-family: 'Roboto';
     font-size: 14px;
     line-height: 24px;
-    letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 .adres-geo:hover,
@@ -199,7 +192,6 @@ footer {
     font-family: 'Roboto';
     font-size: 14px;
     line-height: 24px;
-    letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 .adres-mailto:hover,
@@ -210,7 +202,6 @@ footer {
     font-family: 'Roboto';
     font-size: 14px;
     line-height: 24px;
-    letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 .adres-tel:hover,
@@ -225,7 +216,6 @@ footer {
     font-size: 16px;
     line-height: 26px;
     text-align: center;
-    letter-spacing: 0.03em;
     color: #212121;
     cursor: pointer;
 }
@@ -252,6 +242,5 @@ footer {
     font-family: 'Roboto';
     font-size: 16px;
     line-height: 30px;
-    letter-spacing: 0.03em;
     color: #757575;
 }
