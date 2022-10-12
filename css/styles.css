@@ -1,11 +1,38 @@
 /* ПАЛІТРА */
+/* колір основного тексту: #212121  */
+/* колір додаткового тексту: #757575 */
+/* колір герої, футер(адреса+лого текст): #FFFFFF */
+/* колір лого веб, ховер+фокус: #2196F3 */
+/* колір лого текст хедер: #000000 */
+/* інші кольори: white; #ECECEC; rgba(0, 0, 0, 0.15);
+   #188CE8; #F5F4FA; rgba(0, 0, 0, 0.12); rgba(0, 0, 0, 0.14);
+   rgba(0, 0, 0, 0.2); #2F303A; (255, 255, 255, 0.6); rgba(0, 0, 0, 0.1);
+   #EEEEEE; rgba(0, 0, 0, 0.08); rgba(0, 0, 0, 0.12);*/
+
 :root {
     --text-color:  #212121;
+    --additional-text: #757575;
+    --hero-footer: #FFFFFF;
+    --web-hover-fokus: #2196F3;
+    --color-logo-hed: #000000;
+  }
+  /* HIDDEN */
+  .visually-hidden {
+    position: absolute;
+      white-space: nowrap;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      border: 0;
+      padding: 0;
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      margin: -1px;
   }
 /* INDEX */
 body {
     font-family: 'Roboto', 'Raleway',sans-serif;
-    color: var(--text-color)
+    color: var(--text-color);
     background-color: white;
     font-size: 14px;
     letter-spacing: 0.03em;
@@ -22,58 +49,52 @@ ul {
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    color: #000000;
+    color: var(--color-logo-hed);
 }
 .logo-web {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    color: #2196F3;
+    color: var(--web-hover-fokus);
 }
 .nav-stud, .nav-portf, .nav-cont  {
-    font-family: 'Roboto';
     font-weight: 500;
-    font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--text-color);
 } 
 .nav-stud:hover,
 .nav-stud:focus {
-    color: #2196F3;
+    color: var(--web-hover-fokus);
 }
 .nav-portf:hover,
 .nav-portf:focus {
-    color: #2196F3;
+    color: var(--web-hover-fokus);
 }
 .nav-cont:hover,
 .nav-cont:focus {
-    color: #2196F3;
+    color: var(--web-hover-fokus);
 }
 .contacts-mailto {
-    font-family: 'Roboto';
     font-weight: 500;
-    font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--additional-text);
 } 
 .contacts-mailto:hover,
 .contacts-mailto:focus {
-    color: #2196F3;
+    color: var(--web-hover-fokus);
 }
 .contacts-tel {
-    font-family: 'Roboto';
     font-weight: 500;
-    font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--additional-text);
 }
 .contacts-tel:hover,
 .contacts-tel:focus {
-    color: #2196F3;
+    color: var(--web-hover-fokus);
 }
 .headline {
     border-bottom: 1px solid #ECECEC;
@@ -83,14 +104,13 @@ ul {
     background: #2F303A;
 }
 .title-hero {
-    font-family: 'Roboto';
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--hero-footer);
 }
 .caption-btn {
     font-family: 'Roboto';
@@ -101,8 +121,8 @@ ul {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
-    background: #2196F3;
+    color: var(--hero-footer);
+    background: var(--web-hover-fokus);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer;
@@ -113,59 +133,51 @@ ul {
 }
 /* OFFER */
 .offer-title {
-    font-family: 'Roboto';
     font-weight: 700;
-    font-size: 14px;
     line-height: 16px;
     text-transform: uppercase;
-    color: #212121;
+    color: var(--text-color);
 }
 .offer-p {
-    font-family: 'Roboto';
-    font-size: 14px;
     line-height: 24px;
-    color: #757575;
+    color: var(--additional-text);
 }
 /* JOB */
 .job {
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
-    color: #212121;
+    color: var(--text-color);
 }
 /* TEAM */
 .team {
     background: #F5F4FA;
 }
 .team-box {
-    background: #FFFFFF;
+    background: var(--hero-footer);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
 .team-title {
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
-    color: #212121;
+    color: var(--text-color);
 }
 .team-cap {
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    color: #212121;
+    color: var(--text-color);
 }
 .team-text {
-    font-family: 'Roboto';
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    color: #757575;
+    color: var(--additional-text);
 }
 /* FOOTER */
 footer {
@@ -176,37 +188,31 @@ footer {
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    color: #FFFFFF;
+    color: var(--hero-footer);
 }
 .adres-geo {
-    font-family: 'Roboto';
-    font-size: 14px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: var(--hero-footer);
 }
 .adres-geo:hover,
 .adres-geo:focus {
-    color: #2196F3;
+    color: var(--web-hover-fokus);
 }
 .adres-mailto {
-    font-family: 'Roboto';
-    font-size: 14px;
     line-height: 24px;
     color: rgba(255, 255, 255, 0.6);
 }
 .adres-mailto:hover,
 .adres-mailto:focus {
-    color: #2196F3;
+    color: var(--web-hover-fokus);
 }
 .adres-tel {
-    font-family: 'Roboto';
-    font-size: 14px;
     line-height: 24px;
     color: rgba(255, 255, 255, 0.6);
 }
 .adres-tel:hover,
 .adres-tel:focus {
-    color: #2196F3;
+    color: var(--web-hover-fokus);
 }
 /* PORTFOLIO */
 /* PROJECTS */
@@ -216,31 +222,29 @@ footer {
     font-size: 16px;
     line-height: 26px;
     text-align: center;
-    color: #212121;
+    color: var(--text-color);
     cursor: pointer;
 }
 .btn-projects:hover,
 .btn-projects:focus {
-    background: #2196F3;
+    background: var(--web-hover-fokus);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
-    color: #FFFFFF;
+    color: var(--hero-footer);
 }
 .projects-box {
-    background: #FFFFFF;
+    background: var(--hero-footer);
     border: 1px solid #EEEEEE;
 }
 .projects-head {
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
     letter-spacing: 0.06em;
-    color: #212121;
+    color: var(--text-color);
 }
 .projects-text {
-    font-family: 'Roboto';
     font-size: 16px;
     line-height: 30px;
-    color: #757575;
+    color: var(--additional-text);
 }
