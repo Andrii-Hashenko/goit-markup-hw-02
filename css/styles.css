@@ -7,7 +7,7 @@
 /* інші кольори: white; #ECECEC; rgba(0, 0, 0, 0.15);
    #188CE8; #F5F4FA; rgba(0, 0, 0, 0.12); rgba(0, 0, 0, 0.14);
    rgba(0, 0, 0, 0.2); #2F303A; rgba(255, 255, 255, 0.6); rgba(0, 0, 0, 0.1);
-   #EEEEEE; rgba(0, 0, 0, 0.08); rgba(0, 0, 0, 0.12);*/
+   #EEEEEE; rgba(0, 0, 0, 0.08);*/
 
 :root {
     --text-color:  #212121;
@@ -17,12 +17,16 @@
     --color-logo-hed: #000000;
     --body-background-color: white;
     --headline-border-bottom: #ECECEC;
-    --hero-background: #2F303A;
+    --hero-footer-background: #2F303A;
     --caption-btn-box-sadow: rgba(0, 0, 0, 0.15);
     --caption-btn-h-f: #188CE8;
-    --team-box-shadow-one: rgba(0, 0, 0, 0.12);
+    --team-background: #F5F4FA;
+    --team-bth-p-box-shadow: rgba(0, 0, 0, 0.12);
     --team-box-shadow-two: rgba(0, 0, 0, 0.14);
     --team-box-shadow-three: rgba(0, 0, 0, 0.2);
+    --adres-m-t-color: rgba(255, 255, 255, 0.6);
+    --btn-p-box-shadow-one: rgba(0, 0, 0, 0.1);
+    --btn-p-box-shadow-two: rgba(0, 0, 0, 0.08);
   }
   /* HIDDEN */
   .visually-hidden {
@@ -109,7 +113,7 @@ ul {
 }
 /* MAIN */
 .hero {
-    background: var(--hero-background);
+    background: var(--hero-footer-background);
 }
 .title-hero {
     font-weight: 900;
@@ -160,11 +164,11 @@ ul {
 }
 /* TEAM */
 .team {
-    background: #F5F4FA;
+    background: var(--team-background);
 }
 .team-box {
     background: var(--hero-footer);
-    box-shadow: 0px 1px 3px var(--team-box-shadow-one), 0px 1px 1px var(--team-box-shadow-two), 0px 2px 1px var(--team-box-shadow-three);
+    box-shadow: 0px 1px 3px var(--team-bth-p-box-shadow), 0px 1px 1px var(--team-box-shadow-two), 0px 2px 1px var(--team-box-shadow-three);
     border-radius: 0px 0px 4px 4px;
 }
 .team-title {
@@ -189,7 +193,7 @@ ul {
 }
 /* FOOTER */
 footer {
-    background: #2F303A;
+    background: var(--hero-footer-background);
 }
 .logo-footer {
     font-family: 'Raleway';
@@ -208,7 +212,7 @@ footer {
 }
 .adres-mailto {
     line-height: 1.71;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--adres-m-t-color);
 }
 .adres-mailto:hover,
 .adres-mailto:focus {
@@ -216,7 +220,7 @@ footer {
 }
 .adres-tel {
     line-height: 1.71;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--adres-m-t-color);
 }
 .adres-tel:hover,
 .adres-tel:focus {
@@ -236,7 +240,7 @@ footer {
 .btn-projects:hover,
 .btn-projects:focus {
     background: var(--web-hover-fokus);
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 3px 1px var(--btn-p-box-shadow-one), 0px 1px 2px var(--btn-p-box-shadow-two), 0px 2px 2px var(--team-bth-p-box-shadow);
     border-radius: 4px;
     color: var(--hero-footer);
 }
